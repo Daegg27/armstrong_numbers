@@ -9,7 +9,7 @@ let sumOfArr = 0;
 
 // let splitNum = arr.toString().split('').map(elem => (elem));
 
-for (let i = 0; i <= arr[0]; i++ )
+for (let i = 0; i < arr[0]; i++ )
 {
     if (i < 10)
     {
@@ -27,7 +27,8 @@ for (let i = 0; i <= arr[0]; i++ )
         answer.push(sumOfArr);
     }
     }
-}return answer
+}
+return answer;
 
 };
 console.log(findArmstrongNumbers([8]))
